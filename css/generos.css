@@ -1,16 +1,33 @@
-body{
-    background-color: white;
+
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.geneors{
-    margin-top: 30px;
+.contenedor {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row; 
+    justify-content: center; 
 }
 
-.generos img{
-    width: 200px;
+.imagen-con-texto {
+    text-align: center;
+    margin: 10px;
 }
 
+.imagen-con-texto img {
+    max-width: 200px; 
+    height: 200px; 
+}
+
+.texto {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    }
+
+li{
+    text-align: center;
+}
