@@ -12,5 +12,22 @@ body{
 
 .generos img{
     width: 200px;
+    
 }
 
+.generos ul{
+    padding: 0;
+}
+
+.generos article li{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: black;
+}
