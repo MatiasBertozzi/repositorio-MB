@@ -8,80 +8,96 @@
 </head>
 
 <body>
+    <header>
+        <div id="logo">
+            <img src="img/LOGO.jpg" alt="Logo">            
+        </div>
+        <form id="search-form" action="search-results.html" method="get">
+            <input type="text" name="query" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="detalle-pelicula.html">Peliculas</a></li>
+                <li><a href="detalle-series.html">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
 
 <h1> GENEROS</h1>
 <hr>
 
 <section>
-    <article>
+    <article class="container accion">
         <h2> ACCION</h2>
-        <div>
-            <div>
-                <img src="./img/Top gun.jpg" alt="top gun">
-                <p> Top Gun </p>
-            </div>
-
-            <div>
-                <img src="./img/Shooter.jpg" alt="shooter">
-                <p>Shooter </p>
-            </div>
-            <div>
-                <img src="./img/Rapidos y furiosos 8.jpg" alt="rapidos y furiosos">
-                <p>Rapidos y Furiosos </p>
-            </div>
-            <div>
-                <img src="./img/La caida de la casa blanca.jpg" alt="la caida de la casa blanca">
-                <p>La Caida de la Casa Blanca </p>
-            </div>
-
-        </div>
+        
+            <div class="box">
+                <div class="minibox">
+                    <img src="./img/Top gun.jpg" alt="top gun">
+                    <p> Top Gun </p>
+                </div>
+                <div class="minibox">
+                    <img src="./img/Shooter.jpg" alt="shooter">
+                    <p>Shooter </p>
+                </div>
+                <div class="minibox">
+                    <img src="./img/Rapidos y furiosos 8.jpg" alt="rapidos y furiosos">
+                    <p>Rapidos y Furiosos </p>
+                </div>
+                <div class="minibox">
+                    <img src="./img/La caida de la casa blanca.jpg" alt="la caida de la casa blanca">
+                    <p>La Caida de la Casa Blanca </p>
+                </div>
+           <div>
     </article>
 
-    <article>
+    <article class=" container aventura">
         <h2> AVENTURA</h2>
-        <div>
-            <div>
+        <div class="box">
+            <div class="minibox">
                 <img src="./img/El camino.jpg" alt="el camino">
                 <p> El Camino</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/mision imposible.jpg" alt="Mision Imposible">
                 <p>Msion Imposible</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/piratas.jpg" alt="Piratas del Caribe">
                 <p>Piratas del Caribe</p>
             </div>
 
-            <div>
-                <img src="./img/indie.jpg" alt="Indiana Jones">
-                <p>Indiana Jones El Dial del Destino</p>
+            <div class="minibox">
+                <img src="./img/LastCrusade.jpg" alt="Indiana Jones">
+                <p>Indiana Jones La Ultima Crusada</p>
             </div>
-
         </div>
     </article>
 
-    <article>
+    <article class="container terror">
         <h2> TERROR</h2>
-        <div>
-            <div>
+        <div class="box">
+            <div class="minibox">
                 <img src="./img/It.jpg" alt="It">
                 <p> It</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/monja.jpg" alt="La Monja">
                 <p> La Monja</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/halloween.jpg" alt="Halloween">
                 <p> Halloween</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/horror.jpg" alt="American Horror Story">
                 <p> American Horror Story</p>
             </div>
@@ -89,48 +105,48 @@
         </div>
     </article>
 
-    <article>
+    <article class="container comedia">
          <h2> COMEDIA</h2>
-         <div>
-             <div>
+         <div class="box">
+             <div class="minibox">
                  <img src="./img/Friends.jpg" alt="friends">
-                 <p> </p>
+                 <p>Friends </p>
              </div>
 
-             <div>
+             <div class="minibox">
                  <img src="./img/Son como niños.jpg" alt="son como niños">
-                 <p> </p>
+                 <p> Son Como Niños</p>
              </div>
 
-             <div>
+             <div class="minibox">
                 <img src="./img/Son como niños 2.jpg" alt="son como niños 2">
-                <p> </p>
+                <p> Son Como Niños 2</p>
             </div>
-            <div>
+            <div class="minibox">
                 <img src="./img/modern family.jpg" alt="modern family">
-                <p> </p>
+                <p>Modern Family </p>
             </div>
          </div>
     </article>
 
-    <article>
+    <article class="container romance">
         <h2> ROMANCE</h2>
-        <div>
-            <div>
+        <div class="box">
+            <div class="minibox">
                 <img src="./img/stars.jpg" alt="Bajo la misma estrella">
                 <p> Bajo la misma estrella</p>
             </div>
 
-            <div>
+            <div class="minibox">
                 <img src="./img/amor.jpg" alt="amor de medianoche">
                 <p> Amor de Medianoche</p>
             </div>
 
-            <div>
-                <img src="./img/romance.jpg" alt="Romance">
+            <div class="minibox">
+                <img src="./img/romance 1.jpg" alt="Romance">
                 <p> Romance</p>
             </div>
-            <div>
+            <div class="minibox">
                 <img src="./img/obsesion.jpg" alt="obsesion">
                 <p> Obsesion</p>
             </div>
@@ -140,5 +156,9 @@
 
 </section>
      
+
+<footer>
+    <p>2023 - Equipo de Desarrollo: Matias Bertossi, Santiago Premrou y Santiago Gantus</p>
+</footer>
 </body>
 </html>

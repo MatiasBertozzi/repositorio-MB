@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/detail-genders.css" rel="stylesheet">
+    <link href="./css/search.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <img src="img/LOGO.jpg" alt="Logo">
+        </div>
+        <form id="search-form" action="search-results.html" method="get">
+            <input type="text" name="query" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="detalle-pelicula.html">Peliculas</a></li>
+                <li><a href="detalle-series.html">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2> Resultados de Busqueda:</h2>
+
+    <div class="pelis">
+        <div class="box">
+             <a href="./detalle-pelicula4.html"><img src="./img/LastCrusade.jpg"></a>
+            <p> Indiana Jones La Ultima Crusada</p>
+        </div>
+        <div class="box">
+           <a href="./detalle-pelicula3.html"><img src="./img/AtWorld'sEnd.jpg"></a> 
+            <p> Piratas del Caribe: At World's End </p>
+        </div>
+        <div class="box">
+           <a href="./detail-genders.html"> <p class="ver">Ver Mas...</p></a>
+        </div>
+       
+    </div>
+
+
+
+
+    <footer>
+        <p>2023 - Equipo de Desarrollo: Matias Bertozzi, Santiago Premrou y Santiago Gantus</p>
+    </footer>
 </body>
 </html>

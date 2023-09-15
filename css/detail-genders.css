@@ -1,3 +1,73 @@
-article{display: flex;
+body {
+    background: radial-gradient(ellipse at center, #ead6d2, #eaddc9);
+}
+
+
+
+header {
+    background-color: #010101;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul li a {
+    background-color: white;
+    color: #0b0a0a;
+   
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #120d0d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+div.box{display: flex;
+flex-direction: row;
 flex-wrap: wrap;
-flex-direction: row;}
+gap: 40px;
+justify-content: center;
+}
+
+
+
+
+
+.accion img{display: flex;
+height: 150px;
+width: 250px;
+flex-direction: row;
+flex-wrap: wrap;
+border-radius: 20px;
+}
+
+.romance img{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    border-radius: 20px;
+    width: 250px;
+    }
+
+.aventura img{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;}
+
+.terror img{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;}
+
+.comedia img{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;}
