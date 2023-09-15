@@ -55,3 +55,11 @@ footer {
     color: #0a0000;
     margin: 0;
 }
+
+nav ul li a {
+    background-color: white;
+    color: #0b0a0a
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

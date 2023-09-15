@@ -1,3 +1,4 @@
+
 body {
     background:radial-gradient(ellipse at center, #ead6d2, #eaddc9);
 }
@@ -42,7 +43,7 @@ padding: 10px 0;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0 0 10px, rgba(0, 0, 0, 0.3);
-    transition: transfor 0.2s;
+    transition: 0.2s;
 }
 
 .data-item img:hover{
@@ -61,3 +62,8 @@ padding: 10px 0;
     color: #0a0000;
     margin: 0;
 }
+
+article{display: flex;
+flex-wrap: wrap;
+flex-direction: row;}
+
