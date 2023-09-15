@@ -55,3 +55,30 @@ footer {
     color: #0a0000;
     margin: 0;
 }
+
+.data-item img{
+    width: auto;
+    height: 200px;
+}
+
+@media screen and (max-width: 450px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	title{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.img {
+		width: 50;
+        height: auto;
+	}
+
+	.data-item {
+		max-width: 50%;
+        height: auto;
+	}
+}
