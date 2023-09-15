@@ -1,23 +1,29 @@
 body {
-    background: radial-gradient(ellipse at center, #ead6d2, #eaddc9);
+    background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #010101;
-    color: white;
-    padding: 10px 0;
+    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
+    padding: 35px 0;
     text-align: center;
+    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
+    border-radius: 10px;
+    border: 1px solid #747070;
 }
 
 main {
     padding: 20px;
+    color: #060000;
 }
 
 footer {
-    background-color: #120d0d;
-    color: white;
+    
     text-align: center;
     padding: 10px 0;
+    color: #0d0000
 }
 
 .data-group {
@@ -35,7 +41,7 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(6, 0, 0, 0.3);
     transition: transform 0.2s;
 }
 
@@ -47,19 +53,95 @@ footer {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 5px;
-    color: rgb(16, 1, 1);
+    color: rgb(5, 0, 0);
 }
 
 .data-item p {
     font-size: 14px;
-    color: #0a0000;
+    color: #090000;
     margin: 0;
 }
 
 nav ul li a {
-    background-color: white;
-    color: #0b0a0a
+    color: #fbf9f9;
     padding: 10px 20px;
-    text-decoration: none;
     border-radius: 5px;
 }
+
+
+.detalle-pelicula1 img {
+    max-height: 42%;
+    max-width: 43%;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.detalle-pelicula1 img:hover {
+    transform: scale(1.05);
+}
+
+.detalle-pelicula1 iframe {
+    max-height: 50%;
+    max-width: 43%;
+    padding: 10px;
+    padding-left: 134px;
+    padding-top: 60px;
+    transition: transform 0.2s;
+}
+
+.detalle-pelicula1 iframe:hover {
+    transform: scale(1.05);
+}
+
+.search-form {
+    text-align: center;
+}
+
+.search-form button {
+    margin-top: 0px;
+}
+
+.nav-container {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    background-color: #f8f2f2;
+    color: #060000;
+}
+
+.nav-list1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+    
+.nav-list1 li {
+    margin: 0 10px;
+}
+    
+.nav-list1 li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    background-color: #060606;
+    color: #fff;
+}
+
