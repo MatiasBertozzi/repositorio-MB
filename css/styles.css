@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body {
     background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
     background-size: cover;
@@ -145,3 +147,24 @@ nav ul li a {
     color: #fff;
 }
 
+@media(max-width:500px){
+    .header{
+    
+    flex-wrap: wrap;
+    justify-content: center;}
+
+   body{
+        height: initial;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+    img{
+        
+      width: 100%;
+        height: initial;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       } 
+    }

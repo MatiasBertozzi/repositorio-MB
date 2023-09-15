@@ -31,3 +31,20 @@ body {
 li{
     text-align: center;
 }
+
+@media(max-width:500px){
+    .contenedor{
+    width: 35vw;
+    height: initial;
+    flex-wrap: wrap;
+    justify-content: flex-start;}
+   body{
+        padding: 20px;
+        width: 35vw;
+        height: initial;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+       } 
+    }
+    
