@@ -70,16 +70,11 @@ flex-direction: row;}
 
 @media(max-width: 750px) {
     .footer{
-        
         height: initial;
         flex-wrap: wrap;
         justify-content: flex-start;
     }
 
-    body{
-        
-      
-    }
     .data-item{
       width: 50%;
       height: auto;
