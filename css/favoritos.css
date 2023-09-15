@@ -61,6 +61,22 @@ footer {
     height: 200px;
 }
 
+@media screen and (max-width: 750px) {
+    .footer{
+        height: initial;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .data-item{
+      width: 50%;
+      height: auto;
+      gap: 10px;
+      margin: 10x;
+    }
+
+    }
+
 @media screen and (max-width: 450px) {
 	header .logotipo {
 		margin-bottom: 10px;
@@ -73,7 +89,7 @@ footer {
 	}
 
 	.img {
-		width: 50;
+		idth: 50;
         height: auto;
 	}
 

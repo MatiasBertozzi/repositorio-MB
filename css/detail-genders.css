@@ -68,7 +68,7 @@ article{display: flex;
 flex-wrap: wrap;
 flex-direction: row;}
 
-@media(max-width: 750px) {
+@media screen and (max-width: 750px) {
     .footer{
         height: initial;
         flex-wrap: wrap;
@@ -78,6 +78,30 @@ flex-direction: row;}
     .data-item{
       width: 50%;
       height: auto;
+      gap: 10px;
+      margin: 10x;
     }
 
     }
+
+@media screen and (max-width: 450px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	title{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.img {
+		idth: 50;
+        height: auto;
+	}
+
+	.data-item {
+		max-width: 50%;
+        height: auto;
+	}
+}
