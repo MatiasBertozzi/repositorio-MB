@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
+    background-image: radial-gradient(ellipse at center, #373331, #0c0b0ace);
     padding: 35px 0;
     text-align: center;
     box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
