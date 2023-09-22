@@ -1,8 +1,35 @@
-body {
-    background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body{
+    background-color: white;
+}
+
+.geneors{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.generos img{
+    width: 200px;
+    
+}
+
+.generos ul{
+    padding: 0;
+}
+
+.generos article li{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(250, 248, 248);
 }
 
 header {
@@ -11,53 +38,13 @@ header {
     text-align: center;
     box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
     border-radius: 10px;
-    border: 1px solid #747070;
-}
-
-.contenedor {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center; 
-}
-
-.imagen-con-texto {
-    text-align: center;
-    margin: 10px;
-}
-.data-group h3{
-    justify-content: center;
-    display: flex;
-}
+    border: 1px solid #747070;}
 
 footer {
-    background-color: #120d0D;
-    color: white;
     text-align: center;
     padding: 10px 0;
+    color: #0d0000
     }
-
-.data-item img{
-    max-width: 200px; 
-    height: 200px; 
-    display: flex;
-    flex-wrap: wrap;
-}
-.data-group{
-    display: flex;
-    padding: 20px;
-    gap: 20px;
-    justify-content: center;
-}
-
-.texto {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px;
-    }
-
-li{
-    text-align: center;
-}
 
 @media(max-width:500px){
     .contenedor{
