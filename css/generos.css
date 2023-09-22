@@ -1,9 +1,17 @@
-
 body {
-    background-color: grey;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
+    padding: 35px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
+    border-radius: 10px;
+    border: 1px solid #747070;
 }
 
 header {
@@ -30,12 +38,42 @@ footer {
     justify-content: center; 
 }
 
+<<<<<<< HEAD
 .imagen-con-texto img {
     max-width: 200px; 
     height: 200px; 
     display: flex;
     flex-direction: row; 
     justify-content: center; 
+=======
+.imagen-con-texto {
+    text-align: center;
+    margin: 10px;
+}
+.data-group h3{
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    background-color: #120d0D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    }
+
+.data-item img{
+    max-width: 200px; 
+    height: 200px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.data-group{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+>>>>>>> 5192b8bd8af86d0a4071d5e701d8173afeb0b8c2
 }
 
 .texto {
@@ -63,4 +101,41 @@ li{
         
        } 
     }
+
+    @media screen and (max-width: 750px) {
+        .footer{
+            height: initial;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
     
+        .data-item{
+          width: 50%;
+          height: auto;
+          gap: 10px;
+          margin: 10x;
+        }
+    
+        }
+    
+    @media screen and (max-width: 450px) {
+        header .logotipo {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+    
+        title{
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .img {
+            idth: 50;
+            height: auto;
+        }
+    
+        .data-item {
+            max-width: 50%;
+            height: auto;
+        }
+    }
