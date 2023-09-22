@@ -1,9 +1,17 @@
-
 body {
-    background-color: grey;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
+    padding: 35px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
+    border-radius: 10px;
+    border: 1px solid #747070;
 }
 
 .contenedor {
@@ -16,19 +24,10 @@ body {
     text-align: center;
     margin: 10px;
 }
-
 .data-group h3{
     justify-content: center;
     display: flex;
 }
-
-header {
-    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
-    padding: 35px 0;
-    text-align: center;
-    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
-    border-radius: 10px;
-    border: 1px solid #747070;}
 
 footer {
     background-color: #120d0D;
