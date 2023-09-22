@@ -31,3 +31,71 @@ body{
 h2{
     color: rgb(250, 248, 248);
 }
+
+header {
+    background-image:radial-gradient(ellipse at center, #4d4847, #0a0500ce);
+    padding: 35px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
+    border-radius: 10px;
+    border: 1px solid #747070;}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #0d0000
+    }
+
+@media(max-width:500px){
+    .contenedor{
+   
+    height: initial;
+    flex-wrap: wrap;
+    justify-content: flex-start;}
+   body{
+        padding: 20px;
+     
+        height: initial;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+       } 
+    }
+
+    @media screen and (max-width: 750px) {
+        .footer{
+            height: initial;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+    
+        .data-item{
+          width: 50%;
+          height: auto;
+          gap: 10px;
+          margin: 10x;
+        }
+    
+        }
+    
+    @media screen and (max-width: 450px) {
+        header .logotipo {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+    
+        title{
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .img {
+            idth: 50;
+            height: auto;
+        }
+    
+        .data-item {
+            max-width: 50%;
+            height: auto;
+        }
+    }
