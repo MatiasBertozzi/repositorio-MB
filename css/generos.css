@@ -112,3 +112,43 @@ li{
             height: auto;
         }
     }
+
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-list li {
+        margin: 0 10px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        padding: 6px 15px;
+        border: 1px solid #000;
+        border-radius: 0px;
+        background-color: #f8f2f2;
+        color: #060000;
+    }
+    
+    .nav-list1 {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+        
+    .nav-list1 li {
+        margin: 0 10px;
+    }
+        
+    .nav-list1 li a {
+        text-decoration: none;
+        padding: 6px 15px;
+        border: 1px solid #000;
+        border-radius: 0px;
+        background-color: #060606;
+        color: #fff;
+    }
