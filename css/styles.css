@@ -1,31 +1,31 @@
 *{box-sizing: border-box;}
 
 body {
-    background-image: radial-gradient(ellipse at center, #0602003a, #14100d6c);
+    background-color: #b5c0e4;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 header {
-    background-image: radial-gradient(ellipse at center, #373331, #0c0b0ace);
+    background-color: #0c001f;
     padding: 35px 0;
     text-align: center;
-    box-shadow: 0 0 20px rgba(150, 144, 144, 0.3);
     border-radius: 10px;
-    border: 1px solid #747070;
+    border: 1px solid #040000;
+    box-shadow: #304074;
 }
 
 main {
     padding: 20px;
-    color: #060000;
+    color: #0c001f;
 }
 
 footer {
-    
+    background-color: #0c001f;
     text-align: center;
     padding: 10px 0;
-    color: #0d0000
+    color: #fcfbfb
 }
 
 .data-group {
@@ -43,7 +43,7 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(6, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(40, 27, 78, 0.973);
     transition: transform 0.2s;
 }
 
@@ -55,12 +55,12 @@ footer {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 5px;
-    color: rgb(5, 0, 0);
+    color: #0c001f
 }
 
 .data-item p {
     font-size: 14px;
-    color: #090000;
+    color: #0c001f;
     margin: 0;
 }
 
@@ -83,16 +83,25 @@ nav ul li a {
 }
 
 .detalle-pelicula1 iframe {
-    max-height: 50%;
-    max-width: 43%;
+    max-height: 60%;
+    max-width: 58%;
     padding: 10px;
-    padding-left: 134px;
-    padding-top: 60px;
+    padding-left: 80px;
+    padding-top: 10px;
     transition: transform 0.2s;
 }
 
 .detalle-pelicula1 iframe:hover {
     transform: scale(1.05);
+}
+
+.detalle-serie1 img:hover {
+    transform: scale(1.05);
+}
+.detalle-serie1 img {
+    max-height: 50%;
+    max-width: 50%;
+    transition: transform 0.2s;
 }
 
 .search-form {
@@ -174,4 +183,12 @@ nav ul li a {
         width:50%;
         height: auto;
     }
+}
+
+.add-favorite {
+    background-color:#adbae4;
+    color: #000;
+    border: 1px solid #6d7eb4;
+    border-radius: 10px;
+    margin-top: 10px;
 }
