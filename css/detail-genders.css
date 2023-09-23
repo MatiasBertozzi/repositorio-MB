@@ -22,7 +22,7 @@ main{
 
 img {
     width: 25%; 
-    height: 200px; 
+    height: auto; 
 }
 
 footer {
@@ -46,7 +46,7 @@ padding: 10px 0;
 .data-item img{
     max-width: 100%;
     height: 300px;
-    width: 300px;
+    width: 600px;
     border-radius: 5px;
     box-shadow: 0 0 10px, rgba(0, 0, 0, 0.3);
     transition: 0.2s;
