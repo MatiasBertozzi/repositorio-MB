@@ -20,7 +20,7 @@ fetch( `https://api.themoviedb.org/3/search/multi?include_adult=false&language=e
     for (let i =0;i < data.results.length; i++){
         imagen.innerHTML +=
         `<div class="data-item">
-            <a href="../repositorio-MB/detalle-pelicula1.html?query=${info}&id=${data.results[i].id}&numero=${i}">
+            <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[i].id}">
                 <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="${data.results[i].title}"/>
              </a>
         </div>`

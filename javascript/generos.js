@@ -11,7 +11,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=ba0b591fbb4dcbf21e7
     for(let i=0;i< data.genres.length; i++){
     document.querySelector(".data-group").innerHTML+=
     ` <div class="data-item">
-            <a href="./detalle-genero.html?id=${data.genres[i].id}">
+            <a href="./detalle-genero.html?id=${data.genres[i].id}&genero=${data.genres[i].name}">
                 <h3>${data.genres[i].name}</h3>
             </a>
         </div>`
