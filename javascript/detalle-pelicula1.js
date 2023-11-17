@@ -12,11 +12,9 @@ fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=d9e8474e58809c37dad25bc3
 
  .then(function(data){
      console.log(data)
-     for (let i =0;i < data.genres.length; i++){
-      document.querySelector(".detalle-pelicula1 .genero").innerHTML+=
-       `${data.genres[i].name}`
+    
       
-     }
+     
           document.querySelector(".detalle-pelicula1").innerHTML+=
           `<div class="peliculas-item">
              <div class="media-container">
@@ -27,7 +25,6 @@ fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=d9e8474e58809c37dad25bc3
            <p> Fecha de estreno: ${data.release_date}</p>
            <p> Sinopsis: ${data.overview}</p>
            <p> Duracion: ${data.runtime} Minutos</p>
-           <p class="genero"> Genero: </p>
           </div>`
          
  })
