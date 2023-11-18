@@ -16,9 +16,11 @@ fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${id}&api_key=d9e
 for(let i=0;i<data.results.length;i++){
     document.querySelector(".data-group").innerHTML+=`   
     <div class="data-item">
-                    <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="${data.results[i].title}">
+            <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[i].id}">
+                <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="${data.results[i].title}">
+            </a>
                     <p>${data.results[i].title}</p>
-                </div> `
+            </div> `
     
 }})}
  else{
@@ -33,7 +35,9 @@ fetch(`https://api.themoviedb.org/3/discover/tv?with_genres=${id}&api_key=d9e847
 for(let i=0;i<data.results.length;i++){
     document.querySelector(".movie .data-group").innerHTML+=`
     <div class="data-item">
+                <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[i].id}">
                     <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="${data.results[i].title}">
+                </a>
                     <p>${data.results[i].name}</p>
                 </div>`
     

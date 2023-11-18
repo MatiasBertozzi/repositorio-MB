@@ -12,7 +12,7 @@ fetch(InfoPelicula)
         for (let index = 0; index < 5; index ++) {
             ListaPeliculas.innerHTML += `
             <div class="data-item">
-            <a href="../repositorio-MB/detalle-peliculas1.html?id=${data.results[index].id}">
+            <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[index].id}">
                     <img src="https://image.tmdb.org/t/p/w500${data.results[index].poster_path}" alt="${data.results[index].title}">
                 </a>
                 <h3>${data.results[index].title}</h3>
@@ -38,7 +38,7 @@ fetch(InfoSeries)
         for (let index = 0; index < 5; index++) {
             ListaSeries.innerHTML += `
                 <div class="data-item">
-                <a href="../repositorio-MB/detalle-peliculas1.html?id=${data.results[index].id}">
+                <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[index].id}">
                         <img src="https://image.tmdb.org/t/p/w500${data.results[index].poster_path}" alt="${data.results[index].name}"> 
                     </a>
                     <h3>${data.results[index].name}</h3>
@@ -61,7 +61,7 @@ let InfoMasValoradas = `https://api.themoviedb.org/3/movie/top_rated?api_key=${A
             for (let index = 0; index < 5; index++) {
                 ListaMasValoradas.innerHTML += `
                     <div class="data-item">
-                    <a href="../repositorio-MB/detalle-peliculas1.html?id=${data.results[index].id}">
+                    <a href="../repositorio-MB/detalle-pelicula1.html?id=${data.results[index].id}">
                         <img src="https://image.tmdb.org/t/p/w500${data.results[index].poster_path}" alt="${data.results[index].title}"> 
                     </a>
                         <h3>${data.results[index].title}</h3>
