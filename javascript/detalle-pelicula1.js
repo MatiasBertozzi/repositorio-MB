@@ -31,8 +31,3 @@ fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=d9e8474e58809c37dad25bc3
 .catch(function(error){
    console.log(error)
 })
-
-
-
-
-
